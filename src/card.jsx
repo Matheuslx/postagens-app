@@ -20,7 +20,7 @@ export default function card(props) {
                          
                     </div>
                         <div className='icones'>
-                            <a onClick={()=>props.remove(p.id, i)} className="m-10 btn btn-success icon">
+                            <a onClick={()=>props.remove(p.id, i)} className="m-10 btn btn-danger icon">
                                 <i className="bi bi-trash-fill btn-actions"></i>
                             </a>
                             <a onClick={()=>props.edit(p)} className='m-10 btn btn-warning'>
