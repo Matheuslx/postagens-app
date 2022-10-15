@@ -1,0 +1,18 @@
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #eee;
+    border-bottom-color: rebeccapurple;
+    border-radius: 50%;
+    animation: rotate 1.5s linear infinite;
+    margin-top: 2rem;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
